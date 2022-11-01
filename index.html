@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='stylesheet' type='text/css' href='style.css'>
+    <body>
+        <div class='header'>
+            <div class='title'> CHINGU TRIVIA </div>
+            <div class='menue'>
+                <a href='#home' class='active' id='box'> Home </a>
+                <a href='#questions' id='box'> Questions </a>
+            </div>
+        </div>
+        <div class='ques'>
+            <h4 id="quesNum" data-quesNum='0'> 1/10 </h4>
+            <p id='quesText'> Which HTML5 element should contain important links for navigating a website?</p>
+            <div class='quesAns'>
+                <button class ='ansBtn' id='a' onclick="showAns(this.id)"> &lt;li&gt;</button>
+                <button class ='ansBtn' id='b' onclick="showAns(this.id)"> &lt;ul&gt; </button>
+                <button class ='ansBtn' id='c' onclick="showAns(this.id)"> &lt;header&gt; </button>
+                <button class ='ansBtn' id='d' onclick="showAns(this.id)"> &lt;nav&gt; </button>
+            </div>
+            <br>
+            <div id='showresponse'>
+                <p id='response'> ans is right or wrong </p>
+            </div>
+            <br>
+            <button id='nextBtn' onclick="next()"> Next Question </button>
+        </div>
+        <script src='functions.js'></script>
+    </head>
+    </body>
+</html>
