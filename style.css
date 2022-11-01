@@ -1,0 +1,64 @@
+.header {
+    display: flex;
+}
+
+.title {
+    flex-grow: 3;
+    padding: 10px;
+    color: slategray;
+    font-size: large;
+}
+
+.menue {
+    flex-grow: 1;
+    padding: 10px;
+}
+#box{
+    padding: 7px;
+    text-decoration: none;
+    color: red;
+    background-color: bisque;
+    border: solid black 1px;
+    border-radius: 2px;
+    margin: 5px;
+}
+#box.active {
+    color: royalblue;
+}
+.ques{
+    text-align: center;
+}
+
+.quesAns{
+    display: flex;
+    margin: 0 auto;
+    width: 220px;
+    flex-wrap: wrap;
+}
+.ansBtn{
+    width: 100px;
+    margin: 5px;
+    background-color:white;
+    padding: 9px;
+    border-radius: 5px;
+    border: solid black;
+    color: rgb(5, 110, 170);
+}
+#showresponse{
+    display: none;
+}
+#nextBtn{
+    display: none;
+    margin: 0 auto;
+    background-color: rgb(106, 182, 226);
+    padding: 9px;
+    border-radius: 5px;
+    border:white;
+    color: white;
+}
+#quesText{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    
+}
